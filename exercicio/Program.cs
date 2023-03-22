@@ -1,22 +1,17 @@
-﻿namespace exercicio;
+﻿namespace exercicioAlunoMedia;
 class Program
 {
     static void Main(string[] args)
     {
-        //Console.WriteLine("Hello, World!");
-        //Console.ReadKey();
+        Alunos aluno1 = new Alunos();
+        aluno1.nome = "lucas";
+        aluno1.nota1 = 9.2;
+        aluno1.nota2 = 6.8;
 
-        //Criar uma instancia (objeto) a partir de uma Classe
-        Exemplo exe01 = new Exemplo();
-
-        exe01.mostramsg();
-
-        exe01.pegaNome("T.i acima de tudo.");
-
-        Console.WriteLine(exe01.mensagem());
+        aluno1.mensagem();
         
-        Console.WriteLine("O resultado da some é: " + exe01.somar(77, 33));
 
+        
 
     }
 }
