@@ -1,7 +1,7 @@
 public class ContratoPessoaFisica : Contrato
 {
-    private string cpf;
-    private int idade;
+    public string cpf;
+    public int idade;
 
     public ContratoPessoaFisica(string descricao, double valor, string cpf, int idade)
         : base(descricao, valor)
